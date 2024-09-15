@@ -1,3 +1,4 @@
+```
 Quick Sort
 Giải thuật 1: Chọn a[(left + right)/2] làm chốt
 // sắp xếp theo thứ tự tăng dần
@@ -50,7 +51,10 @@ if (right > i) // phân đoạn bên phải
 	QuickSort(a, i, right);
 
 } 
+```
+![photo_2024-09-14_17-20-05](https://github.com/user-attachments/assets/a3780841-bfb3-44f5-9a1b-e4dabb749c5a)
 
+```
 Giải thuật 2: Chọn phần tử đầu tiên làm chốt
 // sắp xếp theo thứ tự tăng dần
 Partition(K, t, p, j){
@@ -105,5 +109,6 @@ QuickSort(K, t, p){
 		QuickSort(K, j + 1, p);
 	}
 }
-
+```
+![photo_2024-09-14_17-20-02](https://github.com/user-attachments/assets/35476f44-db50-4967-aa6d-16cc2a0052a1)
 
