@@ -1,3 +1,4 @@
+```
 Insertion Sort
 // sắp xếp tăng dần
 Insertion_Sort(K, n){
@@ -55,4 +56,5 @@ VD: Sắp xếp dãy theo thứ tự giảm dần
 --------------------------------------
 
 94  87  79  68  65  50  42  36  23  11    --> Dừng
-
+```
+![photo_2024-09-14_17-19-52](https://github.com/user-attachments/assets/299da160-ccd1-47d2-ab24-9163ed489086)
