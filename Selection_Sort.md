@@ -1,4 +1,4 @@
-
+```
 // sắp xếp tăng dần
 Select_Sort(K[], n){
 	for (i = 0; i < n – 1; i ++){
@@ -157,3 +157,7 @@ Bắt đầu với i = 8
                                 i               
 94  87  79  69  65  50  42  36  23  11
 Dừng
+```
+![photo_2024-09-14_17-19-55](https://github.com/user-attachments/assets/abd7a15b-074d-4427-8b1f-5822bc39f1d6)
+![photo_2024-09-14_17-19-58](https://github.com/user-attachments/assets/d2fbb059-88e9-4dd4-b943-c46fe2a8f787)
+
