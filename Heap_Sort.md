@@ -28,7 +28,7 @@ Heap_Sort(K, n){
   for ( i = (n - 2) / 2; i <= 0; i --)
       ADJUST(i, n);
   // 2 - Sắp xếp gồm: đổi chỗ và vun đống
-  for ( i = n - 1; i > 0; i -- ){ // duyệt từ lá
+  for ( i = n - 1; i > 0; i -- ){ // Sau khi tìm được gốc ( túc phần tử có giá trị lớn nhất ) thì đổi chỗ cho phần tử ở cuối mảng
     x = K[0];
     K[0] = K[i];
     K[i] = x;
@@ -36,3 +36,5 @@ Heap_Sort(K, n){
   }
 }
 ```
+![photo_2024-09-18_18-06-04](https://github.com/user-attachments/assets/2ce2379e-0716-456c-93c4-955f65a163bb)
+![photo_2024-09-18_18-05-54](https://github.com/user-attachments/assets/3e3b49b8-913d-462e-9f7b-6f02957295cc)
