@@ -1,11 +1,12 @@
 Trình bày (bằng ngôn ngữ tựa C) giải thuật bổ sung 1 nút mới có chứa dữ liệu X vào trước nút trỏ bởi Q trong danh 
 sách móc nối 2 chiều với: Pdau trỏ vào phần tử đầu, Pcuoi trỏ vào phần tử cuối, mỗi nút có cấu trúc như sau:
+```
 P_L --> Trỏ vào phần tử đứng trước nó ( tức đứng bên trái )
 data --> Chứa dữ liệu X
 P_R --> Trỏ vào phần tử đứng sau nó ( tức đứng bên phải )
 
 Ngôn ngữ tựa C
-```
+
 DOUBLE_IN (Pdau, Pcuoi, Q, X){
   P = malloc(); // Tạo nút mới P->DATA = X;
   P->P_L = P->P_R = NULL;
