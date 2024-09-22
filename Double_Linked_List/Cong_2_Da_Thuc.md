@@ -1,8 +1,9 @@
 Trình bày (bằng ngôn ngữ tựa C) giải thuật cộng 2 đa thức: C = A + B. Các phần tử trong mỗi đa thức có cấu trúc như sau:
+```
 HSO --> Ghi hệ số
 MU --> Ghi số mũ
 NEXT --> Ghi địa chỉ đến phần tử tiếp theo
-```
+
 /* Hàm này thực hiện việc tạo 1 nút mới, đưa vào thành phần HSO của nút này giá trị H, 
 đưa vào thành phần MU giá trị M và gắn nút mới đó vào sau nút trỏ bởi D.  */
 
