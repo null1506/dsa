@@ -1,5 +1,6 @@
  Trình bày (bằng ngôn ngữ tựa C) giải thuật duyệt cây theo thứ tự giữa bằng giải thuật không đệ qui có sử dụng STACK. 
  Mỗi nút trên cây có cấu trúc như sau:
+ ```
  P_L --> Trỏ vào cây con trái
  data --> Chứa dữ liệu X
  P_R --> Trỏ vào cây con phải
@@ -42,4 +43,4 @@ TT_GIUA_S (T){
     P = P -> P_R;
   }
 }
-    
+``` 
