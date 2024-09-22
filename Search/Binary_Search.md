@@ -1,4 +1,5 @@
 Trình bày (bằng ngôn ngữ tựa C) giải thuật tìm kiếm nhị phân. Đánh giá thời gian thực hiện giải thuật với dãy có n phần tử.
+```
 Binary_Search(K, left, right, x){  // K là mảng 
   if ( t > p )
     return -1; // ko tìm thấy
@@ -12,5 +13,5 @@ Binary_Search(K, left, right, x){  // K là mảng
       Binary_Search(K, g + 1, right, x); // tìm tiếp ở nửa sau
   }
 }
-    
+```
       
