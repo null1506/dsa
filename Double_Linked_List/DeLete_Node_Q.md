@@ -1,9 +1,10 @@
 Trình bày (bằng ngôn ngữ tựa C) giải thuật loại bỏ 1 nút trỏ bởi Q trong danh sách móc nối 2 chiều với:
 Pdau trỏ vào phần tử đầu, Pcuoi trỏ vào phần tử cuối, mỗi nút có cấu trúc như sau:
+```
 P_L --> Trỏ vào phần tử đứng trước nó ( đứng bên trái nó )
 data --> Chứa dữ liệu X
 P_R --> Trỏ vào phần tử đứng sau đó ( đứng bên phải nó )
-```
+
 DOUBLE_DEL(Pdau, Pcuoi, Q){
   if(Pcuoi == NULL)  // Trường hợp danh sách rỗng
     printf(“Danh sách rỗng”);
