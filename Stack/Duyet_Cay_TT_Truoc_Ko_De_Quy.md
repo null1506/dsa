@@ -1,9 +1,9 @@
 Trình bày (bằng ngôn ngữ tựa C) giải thuật duyệt cây theo thứ tự trước bằng giải thuật 
 không đệ qui có sử dụng STACK. Mỗi nút trên cây có cấu trúc như sau: 
 ```
-P_R --> Trỏ vào phần tử đứng trước nó ( đứng bên trái )
+P_R --> Trỏ tới cây con phải
 data --> Chứa dữ liệu X
-P_L --> Trỏ vào phần tử đứng sau nó ( đứng bên phải )
+P_L --> Trỏ tới cây con trái
 
 /*  T là con trỏ trỏ tới gốc cây đã cho, S là một ngăn xếp (được cài đặt bằng mảng) với biến trỏ TOP trỏ tới đỉnh.
 Con trỏ P được dùng để trỏ tới nút hiện đang được xem xét. Có sử dụng các hàm PUSH, POP  */
