@@ -1,9 +1,10 @@
 Trình bày (bằng ngôn ngữ tựa C) giải thuật duyệt cây theo thứ tự sau bằng giải thuật không đệ qui có sử dụng STACK. 
 Mỗi nút trên cây có cấu trúc như sau:  
+```
 P_L --> Trỏ tới cây con trái
 data --> Chứa dữ liệu X
 P_R --> Trỏ tới cây con phải
-```
+
 /*  trong phép duyệt này, nút gốc chỉ được thăm sau khi đã duyệt xong 2 con của nó. Như vậy, 
 chỉ từ khi con phải đi lên gặp gốc thì gốc mới được thăm, chứ k phải ở lần gặp gốc khi từ con trái đi lên. 
 Do đó, để phân biệt, người ta đưa thêm dấu âm vào địa chỉ ( địa chỉ âm) để đánh dấu cho lần đi lên từ con phải  */
