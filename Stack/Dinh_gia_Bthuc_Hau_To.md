@@ -1,7 +1,8 @@
 Trình bày (bằng ngôn ngữ tựa C) giải thuật định giá biểu thức hậu tố bằng cách dùng STACK
 Giải thuật này sử dụng một ngăn xếp S, với top được trỏ bởi T, ban đầu T = -1
 ```
-// Hàm dùng để thêm phần tử X vào Stack
+/* bổ sung phần tử X vào ngăn xếp lưu trữ bởi mảng S có n phần tử.
+T là biến trỏ đến đỉnh ngăn xếp */
 PUSH(S, T, X){
   if (T > n - 1)
     printf("Ngăn xếp tràn);
